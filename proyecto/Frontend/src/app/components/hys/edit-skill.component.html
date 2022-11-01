@@ -1,0 +1,41 @@
+<section class="vh-100 gradient-custom" *ngIf="skill">
+    <div class="container py-5 h-100" >
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Editar educacion</h3>
+                        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="form-group">
+                                        <input type="text" id="nombre" class="form-control" name="nombre"
+                                            [(ngModel)]="skill.nombre" required>
+                                        <label for="nombre">Nombre de skill</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="form-group">
+                                        <input type="text" id="porcentaje" class="form-control" name="porcentaje"
+                                            [(ngModel)]="skill.porcentaje" required>
+                                        <label for="porcentaje">Descripcion de los estudios</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-2">
+                                <button class="btn btn-secondary">Editar skill</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

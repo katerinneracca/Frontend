@@ -1,0 +1,13 @@
+.row{
+    background-color: white;
+    padding: 20px;
+    color: #2C3532;
+    font-family:Helvetica;
+
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

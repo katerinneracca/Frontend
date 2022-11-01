@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+    color: #2C3532;
+    font-family:Helvetica;
+}
+div{
+    background-color: #EBE7E6;
+    font-family: Helvetica;
+}
+h1,h3{
+    display: inline;
+}
+p{
+    margin-left: 5%;
+}

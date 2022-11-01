@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ingreso{
+    margin-right: 0.5em;
+}
+.redes img{
+    margin: 0.2em;
+}
+#logoap{
+    width: 150px;
+}
+img{
+    width: 40px;
+    
+}
+.btn{
+    border-width: medium;
+}
+
+@media(min-width:601px){
+    .redes{
+        margin: 0.2em;
+        margin-left: auto;
+    } 
+}
+
+/*--- vista de celular---*/
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+}
