@@ -17,16 +17,16 @@ public class Proyectos {
     private String nombreP;
     private String descripcionP;
     private String linkP;
-    //private String linkGithub;
+    private String linkGithub;
 
     public Proyectos() {
     }
 
-    public Proyectos(String nombreP, String descripcionP, String linkP/*, String linkGithub*/) {
+    public Proyectos(String nombreP, String descripcionP, String linkP, String linkGithub) {
         this.nombreP = nombreP;
         this.descripcionP = descripcionP;
         this.linkP = linkP;
-        //this.linkGithub = linkGithub;
+        this.linkGithub = linkGithub;
     }
 
     public int getId() {
@@ -61,18 +61,14 @@ public class Proyectos {
         this.linkP = linkP;
     }
     
-    /*public String getLinkGithub() {
+    public String getLinkGithub() {
         return linkGithub;
     }
 
     public void setLinkGithub(String linkGithub) {
         this.linkGithub = linkGithub;
-    }*/
+    }
     
 
-    
-    
-    
-
-    
+       
 }

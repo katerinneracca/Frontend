@@ -17,16 +17,16 @@ public class dtoProyectos {
     private String descripcionP;
     @NotBlank
     private String linkP;
-    /*@NotBlank
-    private String linkGithub;*/
+    @NotBlank
+    private String linkGithub;
     
     
 
-    public dtoProyectos(String nombreP, String descripcionP, String linkP/*, String linkGithub*/) {
+    public dtoProyectos(String nombreP, String descripcionP, String linkP, String linkGithub) {
         this.nombreP = nombreP;
         this.descripcionP = descripcionP;
         this.linkP = linkP;
-        /*this.linkGithub = linkGithub;*/
+        this.linkGithub = linkGithub;
     }
 
     public dtoProyectos() {
@@ -56,13 +56,13 @@ public class dtoProyectos {
         this.linkP = linkP;
     }
     
-    /*public String getLinkGithub() {
+    public String getLinkGithub() {
         return linkGithub;
     }
 
     public void setLinkGithub(String linkGithub) {
         this.linkGithub = linkGithub;
     }
-    */
+    
     
 }
